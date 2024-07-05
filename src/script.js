@@ -63,6 +63,7 @@ create_acc.addEventListener("click", function () {
       showConfirmButton: false,
       timer: 1500,
     });
+   
 
     var localData = localStorage.setItem("user", JSON.stringify(userData));
 
